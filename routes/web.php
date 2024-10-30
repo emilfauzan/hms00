@@ -29,3 +29,17 @@ Route::get('/contact', function () {
         'pagetitle' => 'NT Hotel - Contact'
     ]);
 });
+
+Route::get('/credsignup', function () {
+    return view('credsignup', [
+        'credtitle' => 'Sign Up',
+        'pagetitle' => 'NT Hotel - Sign Up'
+    ]);
+});
+
+Route::get('/credlogin', function () {
+    return view('credlogin', [
+        'credtitle' => 'Login',
+        'pagetitle' => 'NT Hotel - Login'
+    ]);
+});
