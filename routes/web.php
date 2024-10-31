@@ -30,16 +30,16 @@ Route::get('/contact', function () {
     ]);
 });
 
-Route::get('/credsignup', function () {
-    return view('credsignup', [
-        'credtitle' => 'Sign Up',
+Route::get('/register', function () {
+    return view('register', [
+        'title' => 'Sign Up',
         'pagetitle' => 'NT Hotel - Sign Up'
     ]);
 });
 
-Route::get('/credlogin', function () {
-    return view('credlogin', [
-        'credtitle' => 'Login',
+Route::get('/login', function () {
+    return view('login', [
+        'title' => 'Login',
         'pagetitle' => 'NT Hotel - Login'
     ]);
 });

@@ -6,14 +6,16 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class credlayout extends Component
+class AuthLayout extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public $title;
+
+    public function __construct($title = 'Authentication')
     {
-        //
+        $this->title = $title;
     }
 
     /**
@@ -21,6 +23,6 @@ class credlayout extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.credlayout');
+        return view('components.auth-layout');
     }
 }

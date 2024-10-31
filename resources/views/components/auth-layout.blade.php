@@ -1,6 +1,6 @@
-<!-- Well begun is half done. - Aristotle -->
+<!-- resources/views/components/auth-layout.blade.php -->
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-100">
+<html lang="en" class="h-full bg-white">
 
 <head>
     <meta charset="UTF-8">
@@ -8,24 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <title>{{ $title ?? 'Authentication' }}</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <title>NT Hotel</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body class="h-full">
-
-    <div class="min-h-full">
-
-        <x-header>{{ $credtitle }}</x-header>
-
-        <main>
-            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <!-- Your content -->
-                {{ $slot }}
-            </div>
-        </main>
+    <div>
+        {{ $slot }}
     </div>
-
+    <!-- Include any JavaScript here -->
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>
