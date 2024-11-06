@@ -2,10 +2,16 @@
 
     <x-slot:title>{{ $title }}</x-slot:title>
 
+    <div>
+        <img class="" src="assets/img/tower.jpg" alt="">
+
+    </div>
+
+
     <div class="grid md:grid-cols-3 grid-cols-1 gap-3">
         {{-- Main Article --}}
         <article class="md:col-span-2 col-span-1 py-8 max-w-screen-md border-b border-gray-300">
-            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Welcome to NT Hotel</h2>
+            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Greetings & Welcome to NT Hotel</h2>
             <div class="text-base text-gray-500">
                 <a href="#">NT Hotel</a> | Comforting your stay
             </div>
@@ -19,7 +25,7 @@
 
         {{-- Ad --}}
         <article class="hidden md:block col-span-1 py-8 max-w-screen-md border-b border-gray-300">
-            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Welcome to NT Hotel</h2>
+            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Informasi</h2>
             <div class="text-base text-gray-500">
                 <a href="#">NT Hotel</a> | Comforting your stay
             </div>
@@ -35,7 +41,7 @@
     <div class="grid md:grid-cols-3 grid-cols-1 gap-3">
         {{-- Main Article --}}
         <article class="md:col-span-2 col-span-1 py-8 max-w-screen-md border-b border-gray-300">
-            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Welcome to NT Hotel</h2>
+            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Check Our Delightful Room Types</h2>
             <div class="text-base text-gray-500">
                 <a href="#">NT Hotel</a> | Comforting your stay
             </div>
@@ -49,7 +55,7 @@
 
         {{-- Ad --}}
         <article class="hidden md:block col-span-1 py-8 max-w-screen-md border-b border-gray-300">
-            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Welcome to NT Hotel</h2>
+            <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Informasi</h2>
             <div class="text-base text-gray-500">
                 <a href="#">NT Hotel</a> | Comforting your stay
             </div>
@@ -62,8 +68,13 @@
         </article>
     </div>
 
-    <div class="">
-
+    <div class="py-8 border-b border-gray-300">
+        <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Calendar</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque voluptas tempora quod enim! Harum illo
+            velit quam in labore nobis, accusantium asperiores beatae praesentium quas? Reprehenderit dolorem
+            distinctio, ut eum voluptatem tempore vitae ea veritatis ab, velit voluptates pariatur, sit dolorum unde
+            ipsam temporibus nam officia facere? Dignissimos, porro quos sed optio reiciendis qui eaque quibusdam non,
+            neque perspiciatis, cumque earum id at voluptate facilis deleniti ratione ut laudantium.</p>
     </div>
 
 </x-layout>

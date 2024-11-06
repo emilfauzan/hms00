@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        'title' => 'NT Hotel',
+        'title' => 'Welcome to NT Hotel',
         'pagetitle' => 'NT Hotel'
     ]);
 });

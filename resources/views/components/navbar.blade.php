@@ -5,15 +5,15 @@
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img class="h-8 w-8" src="assets/img/companyLogo.png" alt="Your Company">
+                        <img ref class="h-8 w-8" src="assets/img/companyLogo.png" alt="NT Corp">
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-                            <x-nav-link href="/log" :active="request()->is('/log')">Log</x-nav-link>
-                            <x-nav-link href="/about" :active="request()->is('/about')">About Us</x-nav-link>
-                            <x-nav-link href="/contact" :active="request()->is('/contact')">Contact Us</x-nav-link>
+                            <x-nav-link href="/log" :active="request()->is('log')">Log</x-nav-link>
+                            <x-nav-link href="/about" :active="request()->is('about')">About Us</x-nav-link>
+                            <x-nav-link href="/contact" :active="request()->is('contact')">Contact Us</x-nav-link>
 
                         </div>
                     </div>
@@ -98,9 +98,9 @@
             <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <x-nav-link href="/" :active="request()->is('/')">Home</x-nav-link>
-                <x-nav-link href="/log" :active="request()->is('/log')">Log</x-nav-link>
-                <x-nav-link href="/about" :active="request()->is('/about')">About Us</x-nav-link>
-                <x-nav-link href="/contact" :active="request()->is('/contact')">Contact Us</x-nav-link>
+                <x-nav-link href="/log" :active="request()->is('log')">Log</x-nav-link>
+                <x-nav-link href="/about" :active="request()->is('about')">About Us</x-nav-link>
+                <x-nav-link href="/contact" :active="request()->is('contact')">Contact Us</x-nav-link>
             </div>
             <div class="border-t border-gray-700 pb-3 pt-4">
                 <div class="flex items-center px-5">
@@ -118,9 +118,9 @@
                         Profile</a>
                     <a href="#"
                         class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Settings</a>
-                    <a href="#"
-                        class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Sign
-                        out</a>
+                    <x-nav-link href="/login" :active="request()->is('/credlogin')"
+                        class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
+                        role="menuitem" tabindex="-1" id="user-menu-item-2">Sign Out</x-nav-link>
                 </div>
             </div>
         </div>
