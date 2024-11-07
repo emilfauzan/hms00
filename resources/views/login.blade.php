@@ -3,8 +3,8 @@
 
     <div class="flex min-h-screen flex-col items-center justify-center px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-xs">
-            <img class="mx-auto h-10 w-auto" src="assets/img/companyLogo.png" alt="Your Company">
-            <h2 class="mt-3 text-center text-3xl tracking-tight font-bold text-gray-900">NT Hotel</h2>
+            <img class="mx-auto h-10 w-auto" src="assets/img/novotelpulomas.png" alt="Your Company">
+            {{-- <h2 class="mt-3 text-center text-3xl tracking-tight font-bold text-gray-900">NT Hotel</h2> --}}
 
             <h2 class="mt-10 text-center text-2xl/9  tracking-tight text-gray-900">Sign in to your account</h2>
         </div>

@@ -5,7 +5,9 @@
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img ref class="h-10 w-30" src="assets/img/novotelpulomas.png" alt="NT Corp">
+                        <img ref class="mx-auto hidden md:block h-10 w-auto " src="assets/img/novotelpulomas.png"
+                            alt="Novotel Pulomas">
+                        <img class="block md:hidden h-10 w-auto" src="assets/img/nshort.png" alt="Novotel Pulomas">
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
@@ -64,7 +66,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="-mr-2 flex md:hidden">
+                <div class=" items-center md:hidden">
+                    <div class="float-left">
+
+                    </div>
+
                     <!-- Mobile menu button -->
                     <button type="button" @click="isOpen = !isOpen"
                         class="relative inline-flex items-center justify-center rounded-md bg-gray-300 p-2 text-gray-700 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-200"
