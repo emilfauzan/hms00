@@ -1,11 +1,11 @@
 <div>
     <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
-    <nav class="bg-gray-800" x-data="{ isOpen: false }">
+    <nav class="bg-gray-50" x-data="{ isOpen: false }">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img ref class="h-8 w-8" src="assets/img/companyLogo.png" alt="NT Corp">
+                        <img ref class="h-10 w-30" src="assets/img/novotelpulomas.png" alt="NT Corp">
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
@@ -67,7 +67,7 @@
                 <div class="-mr-2 flex md:hidden">
                     <!-- Mobile menu button -->
                     <button type="button" @click="isOpen = !isOpen"
-                        class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                        class="relative inline-flex items-center justify-center rounded-md bg-gray-300 p-2 text-gray-700 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-200"
                         aria-controls="mobile-menu" aria-expanded="false">
                         <span class="absolute -inset-0.5"></span>
                         <span class="sr-only">Open main menu</span>

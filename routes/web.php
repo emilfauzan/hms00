@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        'title' => 'Welcome to NT Hotel',
+        'title' => 'NT Hotel',
         'pagetitle' => 'NT Hotel'
     ]);
 });
@@ -32,14 +32,14 @@ Route::get('/contact', function () {
 
 Route::get('/register', function () {
     return view('register', [
-        'title' => 'Sign Up',
+        'title' => 'NT Hotel - Sign Up',
         'pagetitle' => 'NT Hotel - Sign Up'
     ]);
 });
 
 Route::get('/login', function () {
     return view('login', [
-        'title' => 'Login',
+        'title' => 'NT Hotel - Login',
         'pagetitle' => 'NT Hotel - Login'
     ]);
 });
