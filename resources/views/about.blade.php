@@ -14,7 +14,7 @@
         <article class="col-span-1 py-8 max-w-screen-md border-b border-gray-300">
             <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Founder</h2>
             <div class="text-base text-gray-500">
-                <a href="#">NT Hotel</a> | Comforting your stay
+                <a href="#">Novotel Pulomas</a> | Comforting your stay
             </div>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae, numquam
                 suscipit odit nemo sequi distinctio ex odio corrupti laudantium necessitatibus ullam voluptas ut
@@ -24,7 +24,7 @@
         <article class="col-span-1 py-8 max-w-screen-md border-b border-gray-300">
             <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">NT Tower</h2>
             <div class="text-base text-gray-500">
-                <a href="#">NT Hotel</a> | Comforting your stay
+                <a href="#">Novotel Pulomas</a> | Comforting your stay
             </div>
             <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus alias laborum
                 asperiores maiores, iusto nam reiciendis libero quia veniam, velit odit, magni voluptas aliquam porro?
@@ -34,7 +34,7 @@
         <article class="col-span-1 py-8 max-w-screen-md border-b border-gray-300">
             <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Information</h2>
             <div class="text-base text-gray-500">
-                <a href="#">NT Hotel</a> | Comforting your stay
+                <a href="#">Novotel Pulomas</a> | Comforting your stay
             </div>
             <p class="mb-4">Lorem ipsum dolor sit amet.</p>
             <a href="#">Here's Our Information &raquo;</a>
@@ -42,7 +42,7 @@
         <article class="col-span-1 py-8 max-w-screen-md border-b border-gray-300">
             <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Information</h2>
             <div class="text-base text-gray-500">
-                <a href="#">NT Hotel</a> | Comforting your stay
+                <a href="#">Novotel Pulomas</a> | Comforting your stay
             </div>
             <p class="mb-4">Lorem ipsum dolor sit amet.</p>
             <a href="#">Here's Our Information &raquo;</a>
