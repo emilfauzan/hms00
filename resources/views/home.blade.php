@@ -15,11 +15,7 @@
             <div class="text-base text-gray-500">
                 <a href="#">Novotel Pulomas</a> | Comforting your stay
             </div>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatum tempora illum
-                qui nisi aperiam a
-                doloremque rerum numquam delectus nesciunt in corporis aspernatur vitae, perferendis odio dignissimos
-                eius
-                veniam!</p>
+            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus non magni officiis sequi aspernatur asperiores assumenda consequuntur facilis. Earum, nihil in, id saepe placeat cupiditate amet laboriosam distinctio nesciunt error facere hic blanditiis incidunt dolores deleniti quibusdam quidem iusto. Tempora voluptatum excepturi dolores amet veritatis illo id deserunt similique corporis.</p>
             <a href="#">Book your room now! &raquo;</a>
         </article>
 
