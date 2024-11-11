@@ -104,6 +104,23 @@
             <p class="mb-4">Lorem ipsum dolor sit amet.</p>
             <a href="#">Book your room now! &raquo;</a>
         </article>
+
+        {{-- foreach --}}
+        @foreach ($log as $logs)
+            <article class="md:col-span-3 col-span-1 py-8 max-w-screen-md border-b border-gray-300">
+                <a href="/posts/{{ $logs['id'] }}">
+                    <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900 hover:underline">
+                        {{ $logs['title'] }}</h2>
+                </a>
+                <div class="text-base text-gray-500">
+                    <a href="#">{{ $logs['author'] }}</a> | Comforting your stay
+                </div>
+                <p class="mb-4">{{ Str::limit($logs['body'], 150) }}</p>
+                <a href="log/{{ $logs['id'] }}" class="font-medium text-blue-500 hover:underline">Book your room now!
+                    &raquo;</a>
+            </article>
+        @endforeach
+
     </div>
     <div class="py-8 border-b border-gray-300">
         <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Diagram</h2>
