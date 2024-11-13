@@ -5,7 +5,7 @@
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img ref class="mx-auto hidden md:block h-10 w-auto " src="assets/img/novotelpulomas.png"
+                        <img class="mx-auto hidden md:block h-10 w-auto " src="assets/img/novotelpulomas.png"
                             alt="Novotel Pulomas">
                         <img class="block md:hidden h-10 w-auto" src="assets/img/nshort.png" alt="Novotel Pulomas">
                     </div>
