@@ -32,10 +32,10 @@
             <article class="md:col-span-3 col-span-1 py-8 max-w-screen-md border-b border-gray-300">
                 <a href="/rooms/{{ $room['slug'] }}">
                     <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900 hover:underline">
-                        {{ $room['title'] }}</h2>
+                        {{ $room['type'] }} {{ $room['title'] }}</h2>
                 </a>
                 <div class="text-base text-gray-500">
-                    <a href="#">{{ $room['author'] }}</a> | Comforting your stay
+                    <a href="#">{{ $room['title'] }} {{ $room['roomnumber'] }}</a> | Comforting your stay
                 </div>
                 <p class="mb-4">{{ Str::limit($room['body'], 150) }}</p>
                 <a href="rooms/{{ $room['slug'] }}" class="font-medium text-blue-500 hover:underline">Book your room
