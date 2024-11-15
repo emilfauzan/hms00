@@ -22,7 +22,11 @@ Route::get('/rooms/{slug}', function ($slug) {
 
     $room = Room::find($slug);
 
-    return view('room', ['title' => 'Room Types','pagetitle' => 'Rooms Types', 'rooms' => $room]);
+    return view('room', [
+        'title' => 'Room Types',
+        'pagetitle' => 'Rooms Types',
+        'rooms' => $room
+    ]);
 });
 
 Route::get('/log', function () {
