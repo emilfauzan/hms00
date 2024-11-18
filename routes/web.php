@@ -18,9 +18,9 @@ Route::get('/rooms', function () {
     ]);
 });
 
-Route::get('/rooms/{slug}', function ($slug) {
+Route::get('/rooms/{room:slug}', function (Room $room) {
 
-    $room = Room::find($slug);
+    // $room = Room::find($id);
 
     return view('room', [
         'title' => 'Room Types',
