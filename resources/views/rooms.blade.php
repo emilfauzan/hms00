@@ -35,7 +35,10 @@
                         {{ $room['type'] }} {{ $room['title'] }}</h2>
                 </a>
                 <div class="text-base text-gray-500">
-                    <a href="#">{{ $room['title'] }} {{ $room['roomnumber'] }}</a> | Comforting your stay
+                    <a href="#">{{ $room['title'] }} {{ $room['roomnumber'] }}
+                    </a> |
+                    {{ $room->created_at->diffForHumans() }} |
+                    {{ $room->created_at->format('j F Y') }} | Comforting your stay
                 </div>
                 <p class="mb-4">{{ Str::limit($room['body'], 150) }}</p>
                 <a href="rooms/{{ $room['slug'] }}" class="font-medium text-blue-500 hover:underline">Book your room
