@@ -20,7 +20,7 @@ Route::get('/rooms', function () {
 
 Route::get('/rooms/{room:slug}', function (Room $room) {
 
-    // $room = Room::find($id);
+    // $room = Room::find($id); to find room varible
 
     return view('room', [
         'title' => 'Room Types',
