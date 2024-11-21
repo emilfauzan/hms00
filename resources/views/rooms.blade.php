@@ -40,7 +40,7 @@
                     {{ $room->created_at->diffForHumans() }} |
                     {{ $room->created_at->format('j F Y') }} | Comforting your stay
                 </div>
-                <p class="mb-4">{{ Str::limit($room['body'], 150) }}</p>
+                <p class="mb-4 text-justify">{{ Str::limit($room['body'], 150) }}</p>
                 <a href="rooms/{{ $room['slug'] }}" class="font-medium text-blue-500 hover:underline">Book your room
                     now!
                     &raquo;</a>
@@ -50,7 +50,7 @@
     </div>
     <div class="py-8 border-b border-gray-300">
         <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Diagram</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque voluptas tempora quod enim! Harum illo
+        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eaque voluptas tempora quod enim! Harum illo
             velit quam in labore nobis, accusantium asperiores beatae praesentium quas? Reprehenderit dolorem
             distinctio, ut eum voluptatem tempore vitae ea veritatis ab, velit voluptates pariatur, sit dolorum unde
             ipsam temporibus nam officia facere? Dignissimos, porro quos sed optio reiciendis qui eaque quibusdam non,
