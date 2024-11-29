@@ -33,6 +33,7 @@ class UserFactory extends Factory
             // $a = $a ? $a : $b; // ternary operator
             // $a = $a ?: $b; // elvis operator
             // $a ??= $b; // null coalescing operator
+            
         ];
     }
 
