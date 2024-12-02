@@ -18,7 +18,7 @@
         </article>
 
         {{-- Ad --}}
-        <article class=" col-span-1 py-8 max-w-screen-md border-b border-gray-300">
+        <article class="col-span-1 py-8 max-w-screen-md border-b border-gray-300">
             <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900">Informasi</h2>
             <div class="text-base text-gray-500">
                 <a href="#">Novotel Pulomas</a> | Comforting your stay
@@ -32,7 +32,7 @@
             <article class="md:col-span-3 col-span-1 py-8 max-w-screen-md border-b border-gray-300">
                 <a href="/rooms/{{ $room['slug'] }}">
                     <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900 hover:underline">
-                        {{ $room['type'] }} {{ $room['title'] }}</h2>
+                        {{ $room['type'] }} Room</h2>
                 </a>
                 <div class="text-base text-gray-500">
                     <a href="#">{{ $room['title'] }} {{ $room['roomnumber'] }}
