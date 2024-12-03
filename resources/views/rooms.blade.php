@@ -34,6 +34,7 @@
                     <h2 class="mb-1 text-3xl tracking-tight font-bold text-gray-900 hover:underline">
                         {{ $room['type'] }} Room</h2>
                 </a>
+                
                 <div class="text-base text-gray-500">
                     <a href="#">{{ $room['title'] }} {{ $room['roomnumber'] }}
                     </a> |
